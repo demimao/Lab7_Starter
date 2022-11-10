@@ -106,7 +106,7 @@ async function getRecipes() {
     /**************************/
     // A4. DONE - Loop through each recipe in the RECIPE_URLS array constant
     //            declared above
-    for (i = 0; i < RECIPE_URLS.length; i++) {
+    for (let i = 0; i < RECIPE_URLS.length; i++) {
       // A5. DONE - Since we are going to be dealing with asynchronous code, create
       //            a try / catch block. A6-A9 will be in the try portion, A10-A11
       //            will be in the catch portion.
